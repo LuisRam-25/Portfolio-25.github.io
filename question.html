@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- "magic eight ball stimulation for video game related questions" -->
+   <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+  <title></title>
+  <!-- Bootstrap CDN link -->
+  <link rel="stylesheet" href=" https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Seperate Style sheet -->
+  <style>
+  body {
+    background-color: rgb(194, 237, 237);
+    font-family: "Arial";
+    color: rgb(0, 19, 105);
+  }
+
+  h1 {
+    font-size: 62px;
+    margin-left: 390px ;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+
+  h2 {
+    font-size: 30px;
+    margin-left: 390px;
+    margin-top: 30px;
+  }
+
+  p {
+    font-size: 22px;
+    text-align: left;
+    margin-left: 190px;
+    margin-right: 170px;
+    padding: 10px, 1px, 5px, 1px;
+  }
+
+  img{
+    margin-left: 290px;
+    margin-bottom: 30px;
+  }
+
+  #answerPar{
+    font-size: 34px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    border-radius: 25px;
+    margin-bottom: 30px;
+  }
+/* style for the stimulation  */
+  form {
+    margin-left: 390px ;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+
+  input {
+      color: rgb(0, 19, 105); /* dark blue*/
+      background-color: rgb(64, 211, 222); /* light blue*/
+      border-radius: 5px;
+      padding: 4px 6px;
+      text-decoration: none;
+      font-size: 30px;
+    }
+
+  label {
+    font-size: 24px;
+  }
+  </style>
+  <!-- Size adjustments for larger horizonal images -->
+  <link href="css/nav.css" rel="stylesheet" type="text/css"/>
+  </head>
+
+  <body>
+    <div class="container-lg">
+      <div class="row">
+        <div class="col">
+          <h1>Stimulation</h1>
+        </div>
+      </div>
+
+      <div class="col">
+        <nav>
+          <ul>
+            <li><a href="index.html">Projects</a></li>
+            <li><a href="prototype.html">Samples</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="question.html">Stimulation</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+
+        <div class="row">
+          <div class="col-md-30.5">
+            <h2>Can I ask you a question?</h2>
+              <p>Want to find out which video game character would you be considered? If so, please take the time to use this stimulation. The steps are to type in your name, and then, the system will randomly reveal many different video game characters’ names. Have fun.</p>
+            <form>
+              <label for="askQ">Type In Your Name</label><br><br>
+              <input id="askQ" type="text"><br><br>
+              <input id="submitIt" type="button" value="Submit">
+            </form>
+            <p id="answerPar"></p>
+          <script src="js/script_02.js"></script>
+        </div>
+      </div>
+
+      </div>
+    <script src=" https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="crossorigin="anonymous"></script>
+  </body>
+</html>
