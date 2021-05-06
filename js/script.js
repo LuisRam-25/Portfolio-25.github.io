@@ -18,9 +18,18 @@ document.getElementById("Button2").addEventListener ("click", function(){
 
 var newPar3 = "<p class=\'infoPara\'>This was a team project which involved implementing the JavaScript software, “Processing”, to develop an interactive 2-D Side Scrolling game. I was involved to coordinate with the team in order to make sure there was fair participation and completing the project before the deadline. </p>";
 var newPar4 = "<p class\'infoPara\'>In my role, I design many obstacles with Illustrator, and then applied them into Processing. This allowed me to increase my level design skills as I coded the obstacles’ movements, and boss battle.</p>";
-var newPar5 = "<p class\'infoPara\'>I give credit to Arlyn Elopre for creating the user interface, health status, and background music. I also give credit to Jelani Kennedy for designing the space backgrounds and setting the level transitions in order. </p>";
+var newPar5 = "<p class\'infoPara\'>I give credit to Arlyn Elopre for  creating the user interface, health status, and background music. I also give credit to Jelani Kennedy for designing the space backgrounds and setting the level transitions in order. </p>";
+
 document.getElementById("Button3").addEventListener ("click", function(){
   var byeButton = document.getElementById("Button3");
   byeButton.remove();
   document.getElementById("addOn3").innerHTML = newPar3 + newPar4 + newPar5;
+})
+
+var newPar6 = "<p class\'infoPara\'>I constructed an endless runner game which allowed me to continue developing technical skills to experiment on different control modules, character damage collision, and scores rewards with Unreal Engine.</p>";
+
+document.getElementById("Button4").addEventListener ("click", function(){
+  var byeButton = document.getElementById("Button4");
+  byeButton.remove();
+  document.getElementById("addOn4").innerHTML = newPar6;
 })
