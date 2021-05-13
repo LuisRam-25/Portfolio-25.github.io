@@ -14,7 +14,7 @@
 
   h1 {
     font-size: 62px;
-    margin-left: 200px ;
+    /* margin-left: 200px ; */
     margin-top: 30px;
     margin-bottom: 20px;
   }
@@ -22,8 +22,8 @@
   .mycontent {
     font-size: 22px;
     text-align: left;
-    margin-left: 205px;
-    margin-right: 200px;
+    /* margin-left: 205px;
+    margin-right: 200px; */
     padding: 10px, 1px, 5px, 1px;
   }
 
@@ -31,19 +31,19 @@
   .mycontent2 {
     font-size: 30px;
     margin-top: 20px;
-    margin-left: 220px;
+    /* margin-left: 220px; */
   }
   .mycontent3 {
     font-size: 25px;
     margin-top: 20px;
-    margin-left: 220px;
+    /* margin-left: 220px; */
   }
   .mycontent4 {
     font-size: 30px;
     border-top: 20px;
     font-style: Bold;
     margin-top: 35px;
-    margin-left: 220px;
+    /* margin-left: 220px; */
     border-top: 1px solid rgb(0, 19, 105);;
     padding-top: 35px;
   }
@@ -53,9 +53,24 @@
   }
 
   form {
-    font-size: 25px;
-    padding: 6px 9px 4px 9px;
+    margin-top: 40px;
+    margin-bottom: 20px;
   }
+
+  input {
+      border-radius: 5px;
+      padding: 4px 6px;
+      text-decoration: none;
+      font-size: 20px;
+    }
+
+  textarea {
+      border-radius: 5px;
+      padding: 4px 6px;
+      text-decoration: none;
+      font-size: 20px;
+    }
+
 
   #answerPar{
     font-size: 34px;
@@ -91,26 +106,9 @@
       </div>
 
     <div class="row">
-      <div class="col-sm-300">
+      <div class="col-md">
         <div class="mycontent">If you have any questions for me, please contact me by direct message, or find me on LinkedIN. I am also willing to stay connected in order to continue being involved within the game design field.
         </div>
-
-
-    <!-- <div class="row">
-      <div class="col-sm-20">
-        <div class="mycontent2">Phone:
-        </div>
-          <div class="mycontent3">925-305-1779</div>
-      </div>
-
-      <div class="col-sm-500">
-        <div class="mycontent2">Email:
-        </div>
-        <div class="mycontent3">luisdramos1996@gmail.com
-        </div>
-      </div> -->
-
-    <!-- <div class="col-sm-300"> -->
         <div class="mycontent2">LinkedIn:
         </div>
         <div class="mycontent3"><a href="https://www.linkedin.com/in/luis-ramos-234059194/" target="_blank">Click Here for Profile</a>
@@ -118,32 +116,25 @@
       <!-- </div> -->
     </div>
 
-    <!-- FIll out Form. Idea taken from the HtMl book -->
-    <!-- <div class="row">
-      <div class="col-sm-300"> -->
+    <div class="col-md">
         <div class="mycontent4">Contact Me:
         </div>
-        <div class="mycontent3">
-        <fieldset>
-          <label> Your Name:
-          <input id="name" type="text" name="name" size="30" maxlength="100">
-          </label><br>
 
-          <label> Your Email:
-          <input id="email" type="text" name="email" size="30" maxlength="100">
-          </label><br>
+          <form action="mailto:luisdramos1996@gmail.com" method="post" enctype="text/plain">
+            <label>Name:
+            <input id="name" type="text" name="name"><br><br>
+            </label><br>
 
-          <label id="message"> Message:</label><br>
-          <textarea rows="4" cols="40" id="comments"></textarea>
-          <input id="sendIt" type="button" value="Send">
+            <label>Email:
+            <input id="email" type="text" name="email"><br><br>
+            </label><br>
 
-
-        </fieldset>
+            <label id="message"> Message:</label><br>
+            <textarea rows="4" cols="30" id="comments"></textarea>
+            <input type="submit" value="Send">
+            <input type="reset" value="Reset"><br><br>
+          </form>
       </div>
-        <p id="answerPar"></p>
-      <script src="js/script_04.js"></script>
-    <!-- </div>
-  </div> -->
 
 </div>
 </div>

@@ -1,5 +1,5 @@
 nav ul {
-  margin-left: 245px;
+  /* margin-left: 245px; */
   font-size: 23px;
   font-family: "Acumin Pro";
   list-style-type: none;
@@ -12,7 +12,8 @@ nav a:link, nav a:visited {
   color: rgb(0, 19, 105); /* dark blue*/
   background-color: rgb(64, 211, 222); /* light blue*/
   border-radius: 3px;
-  padding: 6px 9px 4px 9px;
+  padding: 6px 9px 3px 9px;
+  margin-bottom: 5px;
   text-decoration: none;
 }
 nav a:hover {
