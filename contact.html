@@ -22,8 +22,6 @@
   .mycontent {
     font-size: 22px;
     text-align: left;
-    /* margin-left: 205px;
-    margin-right: 200px; */
     padding: 10px, 1px, 5px, 1px;
   }
 
@@ -31,21 +29,15 @@
   .mycontent2 {
     font-size: 30px;
     margin-top: 20px;
-    /* margin-left: 220px; */
   }
   .mycontent3 {
     font-size: 25px;
     margin-top: 20px;
-    /* margin-left: 220px; */
+    margin-bottom: 20px;
   }
   .mycontent4 {
     font-size: 30px;
-    border-top: 20px;
-    font-style: Bold;
-    margin-top: 35px;
-    /* margin-left: 220px; */
-    border-top: 1px solid rgb(0, 19, 105);;
-    padding-top: 35px;
+    font-style: Bold;;
   }
 /* link to be visiable */
   a {
@@ -59,10 +51,13 @@
 
   input {
       border-radius: 5px;
-      padding: 4px 6px;
       text-decoration: none;
       font-size: 20px;
     }
+
+.submit{
+  margin-left: 20px;
+}
 
   textarea {
       border-radius: 5px;
@@ -70,6 +65,11 @@
       text-decoration: none;
       font-size: 20px;
     }
+
+  label {
+    text-decoration: none;
+    font-size: 20px;
+  }
 
   </style>
   <!-- Stylesheet for the navigations to be clickable -->
@@ -113,17 +113,17 @@
 
           <form action="mailto:luisdramos1996@gmail.com" method="post" enctype="text/plain">
             <label>Name:
-            <input id="name" type="text" name="name"><br><br>
+            <input id="name" type="text" name="name"><br>
             </label><br>
 
             <label>Email:
-            <input id="email" type="text" name="email"><br><br>
+            <input id="email" type="text" name="email"><br>
             </label><br>
 
             <label id="message"> Message:</label><br>
             <textarea rows="4" cols="30" id="comments"></textarea>
             <input type="submit" value="Send">
-            <input type="reset" value="Reset"><br><br>
+            <input type="reset" value="Reset">
           </form>
       </div>
 
