@@ -6,14 +6,12 @@ body {
 
 h1 {
   font-size: 62px;
-  /* margin-left: 200px ; */
   margin-top: 30px;
   margin-bottom: 20px;
 }
 
 h2 {
   font-size: 58px;
-  /* margin-left: 410px; */
   margin-top: 30px;
   margin-bottom: 20px;
 }
@@ -21,22 +19,11 @@ h2 {
 h3 {
   font-size: 40px;
   font-style: Bold;
-  /* margin-left: 190px; */
-  margin-top: 33px;
-}
-
-h4 {
-  font-size: 30px;
-  font-style: Bold;
-  margin-left: 190px;
   margin-top: 33px;
 }
 
 p {
   font-size: 22px;
-  text-align: left;
-  /* margin-left: 190px;
-  margin-right: 20px; */
   margin-top: 10px;
   padding: 10px, 1px, 5px, 1px;
 }
@@ -44,7 +31,6 @@ p {
 figcaption {
   font-size: 22px;
   font-style: italic;
-  /* margin-left: 190px; */
   margin-bottom: 20px;
 }
 
@@ -64,10 +50,6 @@ button {
     background-color: rgb(0, 19, 105);
   }
 
-
-/* iframe{
-margin-left: 160px;
-} */
 
 #specialNav {
     color: rgb(0, 19, 105); /* dark blue*/
