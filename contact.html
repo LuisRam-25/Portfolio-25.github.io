@@ -59,9 +59,8 @@
   margin-left: 20px;
 }
 
-  textarea {
+  #comment {
       border-radius: 5px;
-      padding: 4px 6px;
       text-decoration: none;
       font-size: 20px;
     }
@@ -110,21 +109,23 @@
     <div class="col-md">
         <div class="mycontent4">Contact Me:
         </div>
-
+          <fieldset>
           <form action="mailto:luisdramos1996@gmail.com" method="post" enctype="text/plain">
-            <label>Name:
-            <input id="name" type="text" name="name"><br>
-            </label><br>
+            <label>Name:</label><br>
+            <input id="name" type="text" name="name"><br><br>
 
-            <label>Email:
-            <input id="email" type="text" name="email"><br>
-            </label><br>
+
+            <label>Email:</label><br>
+            <input id="email" type="text" name="email"><br><br>
+
 
             <label id="message"> Message:</label><br>
-            <textarea rows="4" cols="30" id="comments"></textarea>
+            <textarea oninput="text" id="comment" rows="4" cols="30">
+            </textarea><br><br>
             <input type="submit" value="Send">
             <input type="reset" value="Reset">
           </form>
+          </fieldset>
       </div>
 
 </div>
