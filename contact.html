@@ -65,9 +65,11 @@
       font-size: 20px;
     }
 
-    #message {
-        font-size: 20px;
-      }
+textarea {
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 20px;
+}
 
   label {
     text-decoration: none;
@@ -114,7 +116,7 @@
         <div class="mycontent4">Contact Me:
         </div>
           <fieldset>
-          <form autocomplete="off" action="mailto:luisdramos1996@gmail.com" method="post" enctype="text/plain">
+          <form action="mailto:luisdramos1996@gmail.com" method="post" enctype="text/plain">
             <div class="autocomplete">
             <label>Name:</label><br>
             <input id="name" type="text" name="name"><br><br>
@@ -124,9 +126,9 @@
             <input id="email" type="text" name="email"><br><br>
 
 
-            <label id="message"> Message:</label><br>
-            <input id="message"id="comment"  type="text" name="email" rows="4" cols="30">
-          </input><br><br>
+            <label> Message:</label><br>
+            <textarea id="message" id="comment" type="text" name="message" rows="4" cols="30">
+          </textarea><br><br>
           </div>
             <input type="submit" value="Send">
             <input type="reset" value="Reset">
